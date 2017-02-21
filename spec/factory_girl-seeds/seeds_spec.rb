@@ -9,8 +9,8 @@ describe FactoryGirl::SeedGenerator do
 
   describe "create" do
     it "seeds with custom attributes" do
-      seed = klass.create(:user, name: 'John')
-      expect(seed.name).to eql 'John'
+      seed = klass.create(:user, name: 'John2')
+      expect(seed.name).to eql 'John2'
     end
 
     it "seeds with traits" do
